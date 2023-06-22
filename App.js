@@ -1,8 +1,8 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import TaskList from "./src/TaskList";
-import TaskForm from "./src/TaskForm";
+import TaskList from "./src/screens/TaskList";
+import TaskForm from "./src/screens/TaskForm";
 
 const Stack = createStackNavigator();
 
